@@ -3,6 +3,7 @@
 > Social network for developers
 
 This is a MERN stack application. It is a small social network app that includes authentication, profiles and forum posts.
+Deployed : https://stark-sierra-08936.herokuapp.com/
 
 ### Add a default.json file in config folder with the following
 
