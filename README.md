@@ -5,6 +5,22 @@
 This is a MERN stack application. It is a small social network app that includes authentication, profiles and forum posts.
 Deployed : https://stark-sierra-08936.herokuapp.com/
 
+## Functionality
+- Sign up and sign in
+- Publicly available:
+  - List of all registered developers
+  - Profiles of each developer
+- Privately available:
+  - Personal dashboard (experiences and education)
+  - Edit profile view
+  - Adding and Deleting experience
+  - Adding and Deleting education
+  - Deleting an account
+  - Posts
+    - Add and Delete the post
+    - Like and Lislike the post
+    - Add and Delete Comment on the post
+
 ### Add a default.json file in config folder with the following
 
 ```
@@ -40,22 +56,3 @@ npm run dev
 cd client
 npm run build
 ```
-
-### Test production before deploy
-
-After running a build in the client 👆, cd into the root of the project.  
-And run...
-
-Linux/Unix 
-```bash
-NODE_ENV=production node server.js
-```
-Windows Cmd Prompt or Powershell 
-```bash
-$env:NODE_ENV="production"
-node server.js
-```
-
-Check in browser on [http://localhost:5000/](http://localhost:5000/)
-
-
